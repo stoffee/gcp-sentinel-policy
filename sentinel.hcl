@@ -26,14 +26,6 @@ policy "gcp-cis-3.8-networking-private-google-access-is-enabled-for-all-vpc-subn
   source = "https://raw.githubusercontent.com/hashicorp/terraform-foundational-policies-library/master/cis/gcp/networking/gcp-cis-3.8-networking-private-google-access-is-enabled-for-all-vpc-subnets/gcp-cis-3.8-networking-private-google-access-is-enabled-for-all-vpc-subnets.sentinel"
   enforcement_level = "advisory"
 }
-policy "azure-cis-3.1-storage-secure-transfer-required-is-enabled" {
-  source = "https://raw.githubusercontent.com/hashicorp/terraform-foundational-policies-library/master/cis/gcp/storage/gcp-cis-5.1-storage-deny-anonymous-or-public-bucket-access/gcp-cis-5.1-storage-deny-anonymous-or-public-bucket-access.sentinel"
-  enforcement_level = "advisory"
-}
-policy "azure-cis-3.3-storage-queue-logging-is-enabled" {
-  source = "https://raw.githubusercontent.com/hashicorp/terraform-foundational-policies-library/master/cis/gcp/storage/gcp-cis-5.3-storage-bucket-logging-is-enabled/gcp-cis-5.3-storage-bucket-logging-is-enabled.sentinel"
-  enforcement_level = "advisory"
-}
 policy "gcp-cis-4.3-compute-ensure-oslogin-is-enabled-for-a-project" {
     source = "https://raw.githubusercontent.com/hashicorp/terraform-foundational-policies-library/master/cis/gcp/compute/gcp-cis-4.3-compute-ensure-oslogin-is-enabled-for-a-project/gcp-cis-4.3-compute-ensure-oslogin-is-enabled-for-a-project.sentinel"
     enforcement_level = "advisory"
